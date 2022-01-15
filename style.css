@@ -1,0 +1,257 @@
+/*------------------------------------------------------- 
+                          Fonts
+---------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Ubuntu:wght@700&display=swap');
+
+/*--------------------------------------------------------
+                  Common Styles or utilities
+........................................................... */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    }
+/*--------------------------------------------------------
+                    Navigation Styles
+----------------------------------------------------------- */
+nav {
+        display: flex;
+        justify-content: space-between;
+        width: 1200px;
+        margin: 0 auto;
+        margin-top: 50px;
+        font-family: 'Poppins', sans-serif;
+       
+    }
+nav a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.1em;
+        margin-right:20px;
+}
+
+.header-font{
+        font-size: 24px;
+        font-weight: 900;
+ }
+.right-nav{
+    width: 450px;
+    
+}
+span:hover{
+    cursor: pointer;
+}
+/* --------------------------------------------------------------------------
+                               Introduction Section Styles
+    ------------------------------------------------------------------------------*/
+
+/* -------------------------------------------------------------------------------------
+                                        Section 1 Styles 
+---------------------------------------------------------------------------------------------*/
+.container-1{
+    width: 1200px;
+    display: flex;
+    /* background-color: aqua; */
+    margin-top: 30px;   
+    margin-left: auto;     
+    margin-right: auto;
+}
+
+.half-width{
+    
+    width: 50%;
+    /* padding-left: 5%; */
+        
+}
+
+.para-title{
+    /* width: 600px; */
+    /* background-color: red; */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    padding-top: 80px;
+}
+
+.para-top-text{
+    margin-bottom: -60px;
+}
+.para-bottom-text{
+    margin-bottom: -10px;
+}
+.para{
+    width: 505px;
+    text-align: justify;
+    font-weight: 900;    
+}
+
+.para-text{
+    padding-bottom: 10px;
+
+}
+
+.half-width img{
+   width: 440px;
+        
+}
+
+#camera {
+    position: relative;
+    z-index: 2;
+    transition: transform 1s;
+    padding: 60px; 
+}
+
+#camera:hover{
+    transform: scale(1.5);
+    
+}
+
+#ring {
+    position: relative;
+    top: -480px;
+    left: 40px;
+    z-index: 1;
+    margin-bottom: -400px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-color: #e02c6d;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 25px;      
+}
+
+.link-button:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.fas {
+    padding-left: 10px;
+}
+
+/* -------------------------------------------------------------------------------------
+                                        Section 2 Styles 
+---------------------------------------------------------------------------------------------*/
+hr {
+    border: 1px;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(121, 121, 121, 0), rgba(0, 0, 0, 0.75), rgba(255, 251, 251, 0));
+    }
+.logo-companies{
+    width: 1110px;
+    margin: 0 auto;
+    
+}
+.logo{
+    padding-left: 65px;
+    align-content: center;
+    text-align: center;
+    justify-content: center;    
+}
+/* -------------------------------------------------------------------------------------
+                                        Section 3 Styles 
+---------------------------------------------------------------------------------------------*/
+.container-2{
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.section-title{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 26px;
+    grid-row-gap: 26px;
+}
+
+.collection{
+    width: 330px;
+    box-shadow: 1px 1px 10px rgb(197, 195, 195);
+    border-radius: 8px;
+
+}
+
+.collection-image img{
+    width: 300px;
+    padding-left: 15px;
+    padding-top: 15px;
+    border-radius: 8px;
+    
+}
+.collection-title{
+    font-size: 24px;
+    font-weight:bolder ;
+    margin-top: -25px;
+    padding-left: 15px;
+}
+.price{
+    font-size: 24px;
+    font-weight:400;
+    font-family: 'Inter', sans-serif;
+    margin-top:-20px;
+}
+.rating{
+    font-size: 16px; 
+    font-weight: 500;   
+}
+
+.fa-star-half-alt{
+    padding-right: 10px;
+}
+.fa-star, .fa-star-half-alt{
+    color: orange;
+}
+.availability{
+    font-size: 16px;
+    font-weight: bold;
+    color: #787885;
+}
+
+.bottom-space{
+    padding-top: 50px;
+    
+}
+/* -------------------------------------------------------------------------------------
+                                        Section 4 Styles 
+---------------------------------------------------------------------------------------------*/
+.last-section-image img{
+    width: 450px;
+    padding-top: 120px;
+    padding-right: 100px;
+}
+
+.bottom-section{
+    padding-top: 0px;
+}
+
+.call{
+padding-left: 120px;
+}
+
+/* -------------------------------------------------------------------------------------
+                                        Footer Styles 
+---------------------------------------------------------------------------------------------*/
+
+.footer-content {
+    margin-top: 50px;
+    background-color: rgb(3, 3, 37);
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+}
+
+.social-button{
+    font-size: 20px;
+    color: white;
+    padding:0 10px;
+}
