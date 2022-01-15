@@ -219,7 +219,13 @@ hr {
 
 .bottom-space{
     padding-top: 50px;
-    
+}
+
+.see-more{
+    text-decoration: none;
+    color: #e02c6d;
+    position: relative;
+    left: 940px;
 }
 /* -------------------------------------------------------------------------------------
                                         Section 4 Styles 
@@ -255,3 +261,52 @@ padding-left: 120px;
     color: white;
     padding:0 10px;
 }
+
+/*----------------------------------------------------------------------------------------------- 
+                                            Media Queries 
+-----------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------- Mobile Devices----------------------------------------------- */
+
+/* @media only screen and (max-width:688px){
+            width:100% ;
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        display: flex;
+       margin: 1em 2em; 
+        
+
+    } */
+
+/* .collections{
+    
+    grid-template-columns: repeat(1, 1fr);
+} */
+/* } */
+/* .player, .blog  {
+    flex-direction: column;
+    align-items: center;
+} */
+ 
+
+ 
+/* tablet devices */
+/* @media only screen and (min-width: 688px) and (max-width:992px){
+    .container-1{
+        display: grid;
+        grid-template-columns: 1;
+        width: 50%;
+    }
+
+    .collections{
+        grid-template-columns: repeat(2, 1fr); 
+    } */
+/* } */
+    /* .players, .courses{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .player, .blog  {
+        flex-direction: column;
+        align-items: center;
+    } */
+    
